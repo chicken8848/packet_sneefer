@@ -1,0 +1,34 @@
+Sniffing on device wlp170s0
+=== Got a 136 byte packet ===
+[[ Layer 2 :: Ethernet Header ]]
+[ Source: c4 :bd:e5:1b:3d:11	Type: 8 ]
+	(( Layer 3 ::: IP Header ))
+	( Source: 10.32.17.51	Dest: 57.144.151.32 )
+	( Type: 6	ID: 36110	Length: 122 )
+		{{ Layer 4 :::: TCP Header }}
+		{ Src Port: 54482	Dest Port: 443 }
+		{ Seq #: 477234034	Ack #: 1931728831 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			No Packet Data
+=== Got a 66 byte packet ===
+[[ Layer 2 :: Ethernet Header ]]
+[ Source: 94 :24:e1:d3:2e:55	Type: 8 ]
+	(( Layer 3 ::: IP Header ))
+	( Source: 57.144.151.32	Dest: 10.32.17.51 )
+	( Type: 6	ID: 55407	Length: 52 )
+		{{ Layer 4 :::: TCP Header }}
+		{ Src Port: 443	Dest Port: 54482 }
+		{ Seq #: 1931728831	Ack #: 477234104 }
+		{ Header Size: 32	Flags: ACK  }
+			No Packet Data
+=== Got a 138 byte packet ===
+[[ Layer 2 :: Ethernet Header ]]
+[ Source: 94 :24:e1:d3:2e:55	Type: 8 ]
+	(( Layer 3 ::: IP Header ))
+	( Source: 57.144.151.32	Dest: 10.32.17.51 )
+	( Type: 6	ID: 55408	Length: 124 )
+		{{ Layer 4 :::: TCP Header }}
+		{ Src Port: 443	Dest Port: 54482 }
+		{ Seq #: 1931728831	Ack #: 477234104 }
+		{ Header Size: 32	Flags: PUSH ACK  }
+			No Packet Data
